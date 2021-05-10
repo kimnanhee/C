@@ -18,10 +18,13 @@ c언어에서는 malloc(), calloc(), realloc()함수를 사용해서 메모리�
 ```c
 int *a = (int *)malloc(5*sizeof(int));
 ```
-<br>   
+
 
 ## calloc()   
+
 메모리 크기를 두 값으로 나누어 전달받고, 공간의 값을 모두 0으로 바꾼다.
 
 ```c
 int *a = (int *)calloc(5, sizeof(int));
+
+```
