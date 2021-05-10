@@ -1,0 +1,58 @@
+Welcome to the Info Process Client!
+
+Please select a number from the following menu:
+
+1. Returns processes with the given image.
+2. Returns processes with the given user name.
+3. Returns processes with given uid.
+4. Returns processes that have used > time given.
+5. To quit this session.
+Which user are you looking for: Sent: user nanhee
+200 Ok
+nanhee      24    23  0 15:36 pts/0    00:00:00 -bash
+
+nanhee     268   267  0 15:40 pts/1    00:00:00 -bash
+
+nanhee     342   268  0 15:42 pts/1    00:00:00 ./procInfoServer
+
+nanhee     365    24  0 15:42 pts/0    00:00:00 ./procInfoClient
+
+nanhee     366   342  0 15:42 pts/1    00:00:00 ./procInfoServer
+
+nanhee     368   366  0 15:42 pts/1    00:00:00 sh -c ps -aef >/tmp/.tmppjvIrUT
+
+nanhee     369   368  0 15:42 pts/1    00:00:00 ps -aef
+
+
+Please select a number from the following menu:
+
+1. Returns processes with the given image.
+2. Returns processes with the given user name.
+3. Returns processes with given uid.
+4. Returns processes that have used > time given.
+5. To quit this session.
+Which user are you looking for: Sent: user egvrvfe
+204 No Content
+
+Please select a number from the following menu:
+
+1. Returns processes with the given image.
+2. Returns processes with the given user name.
+3. Returns processes with given uid.
+4. Returns processes that have used > time given.
+5. To quit this session.
+What time would you like to compare with:
+(minutes:seconds.hundreths) Sent: cpu 0:0.0
+204 No Content
+
+Please select a number from the following menu:
+
+1. Returns processes with the given image.
+2. Returns processes with the given user name.
+3. Returns processes with given uid.
+4. Returns processes that have used > time given.
+5. To quit this session.
+Sent: quit
+Bye!
+
+Thanks for using Proc Info Server!
